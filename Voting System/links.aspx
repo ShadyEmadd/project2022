@@ -41,8 +41,7 @@
             </table>
         </div>
         <p>
-                        <asp:HyperLink ID="HyperLink9" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">Voting</asp:HyperLink>
-                    </p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
