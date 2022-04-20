@@ -52,15 +52,15 @@
         }
         .auto-style25 {
             height: 38px;
-            width: 24px;
+            width: 12px;
         }
         .auto-style26 {
             height: 39px;
-            width: 24px;
+            width: 12px;
         }
         .auto-style27 {
             height: 34px;
-            width: 24px;
+            width: 12px;
         }
     </style>
 </head>
@@ -80,7 +80,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Fname" ErrorMessage="need to enter name" Font-Names="Arial Black" Font-Size="Small" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style25">
-                    &nbsp;</td>
+                    </td>
                 <td class="auto-style8">
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="Fname" ErrorMessage="InvalidFormat" Font-Names="Arial Black" Font-Size="Small" ForeColor="Red" ValidationExpression="([A-Z][a-z]*\s)|([A-Z][a-z])"></asp:RegularExpressionValidator>
                 </td>
