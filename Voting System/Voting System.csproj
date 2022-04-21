@@ -71,7 +71,9 @@
     <Content Include="App_Data\votingsystem_log.ldf">
       <DependentUpon>votingsystem.mdf</DependentUpon>
     </Content>
+    <Content Include="changepassword.aspx" />
     <Content Include="home.html" />
+    <Content Include="images\offical-logo.jpg" />
     <Content Include="index.html" />
     <Content Include="links.aspx" />
     <Content Include="signin.aspx" />
@@ -79,6 +81,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="changepassword.aspx.cs">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changepassword.aspx.designer.cs">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="links.aspx.cs">
       <DependentUpon>links.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

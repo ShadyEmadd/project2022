@@ -9,6 +9,39 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            height: 160px;
+            background-color: #000000;
+        }
+        .auto-style3 {
+            height: 37px;
+            background-color: #0000CC;
+        }
+        .auto-style5 {
+            height: 37px;
+            width: 264px;
+            background-color: #0000CC;
+        }
+        .auto-style6 {
+            height: 37px;
+            width: 251px;
+            background-color: #0000CC;
+        }
+        .auto-style9 {
+            height: 37px;
+            width: 181px;
+            background-color: #0000CC;
+        }
+        .auto-style10 {
+            height: 37px;
+            width: 232px;
+            background-color: #0000CC;
+        }
+        .auto-style11 {
+            height: 37px;
+            width: 222px;
+            background-color: #0000CC;
+        }
     </style>
 </head>
 <body>
@@ -16,32 +49,34 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td>
-                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">Voting</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">Result</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">Admin</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">History</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC">Change password</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC" NavigateUrl="~/signin.aspx" Target="_blank">SignIn</asp:HyperLink>
-                    </td>
-                    <td>
-                        <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="X-Large" ForeColor="#0000CC" NavigateUrl="~/signup.aspx" Target="_blank">SignUp</asp:HyperLink>
+                    <td class="auto-style2">
+                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Edwardian Script ITC" Font-Size="30pt" ForeColor="White" Text="Champion Awards"></asp:Label>
                     </td>
                 </tr>
             </table>
         </div>
-        <p>
-            &nbsp;</p>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style11">
+                        <asp:HyperLink ID="HyperLink17" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Voting</asp:HyperLink>
+                    </td>
+                <td class="auto-style10">
+                        <asp:HyperLink ID="HyperLink16" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Result</asp:HyperLink>
+                    </td>
+                <td class="auto-style6">
+                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Champions</asp:HyperLink>
+                    </td>
+                <td class="auto-style5">
+                        <asp:HyperLink ID="HyperLink14" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/signin.aspx" Target="_blank">SignIn</asp:HyperLink>
+                    </td>
+                <td class="auto-style9">
+                        <asp:HyperLink ID="HyperLink13" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/signup.aspx" Target="_blank">SignUp</asp:HyperLink>
+                    </td>
+                <td class="auto-style3">
+                        <asp:HyperLink ID="HyperLink12" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/changepassword.aspx" Target="_blank">Change password</asp:HyperLink>
+                    </td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
