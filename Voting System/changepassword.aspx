@@ -91,7 +91,7 @@
                         <asp:TextBox ID="TextBox2" runat="server" BorderStyle="Outset" Width="265px"></asp:TextBox>
                     </td>
                 <td class="auto-style15">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="enter username " Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="enter username " Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -103,7 +103,7 @@
                         <asp:TextBox ID="TextBox6" runat="server" BorderStyle="Outset" Width="265px"></asp:TextBox>
                     </td>
                 <td class="auto-style15">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="enter your passowrd " Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="enter your passowrd " Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red" ControlToValidate="TextBox6"></asp:RequiredFieldValidator>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -115,7 +115,7 @@
                         <asp:TextBox ID="TextBox7" runat="server" BorderStyle="Outset" Width="265px"></asp:TextBox>
                     </td>
                 <td class="auto-style15">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="enter your new password" Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="enter your new password" Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red" ControlToValidate="TextBox7"></asp:RequiredFieldValidator>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -127,7 +127,7 @@
                         <asp:TextBox ID="TextBox8" runat="server" BorderStyle="Outset" Width="265px"></asp:TextBox>
                     </td>
                 <td class="auto-style15">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="retype your new password" Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="retype your new password" Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Small" ForeColor="Red" ControlToValidate="TextBox8"></asp:RequiredFieldValidator>
                 </td>
                 <td>&nbsp;</td>
             </tr>

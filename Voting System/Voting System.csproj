@@ -73,7 +73,6 @@
     </Content>
     <Content Include="changepassword.aspx" />
     <Content Include="home.html" />
-    <Content Include="images\offical-logo.jpg" />
     <Content Include="index.html" />
     <Content Include="links.aspx" />
     <Content Include="signin.aspx" />
@@ -119,6 +118,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
