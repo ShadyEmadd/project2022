@@ -6,6 +6,13 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
+         body {
+
+         background-image: url("images/6.png");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+           }
         .auto-style1 {
             width: 1424px;
             height: 572px;

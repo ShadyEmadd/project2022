@@ -13,44 +13,44 @@
         .auto-style11 {
             height: 37px;
             width: 222px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style10 {
             height: 37px;
             width: 232px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style6 {
             height: 37px;
             width: 251px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style5 {
             height: 37px;
             width: 264px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style9 {
             height: 37px;
             width: 181px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style3 {
             height: 37px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style12 {
             width: 100%;
             margin-bottom: 87px;
         }
         .auto-style13 {
-            width: 357px;
+            width: 798px;
         }
         .auto-style14 {
             width: 274px;
         }
         .auto-style15 {
-            width: 206px;
+            width: 2138px;
         }
     </style>
 </head>
@@ -66,7 +66,7 @@
                         <asp:HyperLink ID="HyperLink16" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Result</asp:HyperLink>
                     </td>
                     <td class="auto-style6">
-                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Champions</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Canditates</asp:HyperLink>
                     </td>
                     <td class="auto-style5">
                         <asp:HyperLink ID="HyperLink14" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/signin.aspx" Target="_blank">SignIn</asp:HyperLink>
@@ -136,7 +136,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                        <asp:Button ID="Button1" runat="server" Font-Names="Arial Black" Font-Size="Small" ForeColor="#0000CC" Text="Confirm" Width="124px" />
+                        <asp:Button ID="Button1" runat="server" Font-Names="Arial Black" Font-Size="Small" ForeColor="#0000CC" Text="Confirm" Width="316px" />
                     </td>
                 <td>&nbsp;</td>
             </tr>

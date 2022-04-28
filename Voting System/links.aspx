@@ -16,38 +16,34 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            height: 160px;
-            background-color: #000000;
-        }
         .auto-style3 {
             height: 37px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style5 {
             height: 37px;
             width: 264px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style6 {
             height: 37px;
             width: 251px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style9 {
             height: 37px;
             width: 181px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style10 {
             height: 37px;
             width: 232px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style11 {
             height: 37px;
             width: 222px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
     </style>
 </head>
@@ -56,9 +52,30 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">
-                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Edwardian Script ITC" Font-Size="30pt" ForeColor="White" Text="Champion Awards"></asp:Label>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="Label1" runat="server" BorderStyle="None" Font-Bold="False" Font-Italic="True" Font-Names="Edwardian Script ITC" Font-Overline="False" Font-Size="30pt" ForeColor="White" Text="Club Voting"></asp:Label>
                     </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </table>
         </div>
@@ -71,7 +88,7 @@
                         <asp:HyperLink ID="HyperLink16" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Result</asp:HyperLink>
                     </td>
                 <td class="auto-style6">
-                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Champions</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Canditates</asp:HyperLink>
                     </td>
                 <td class="auto-style5">
                         <asp:HyperLink ID="HyperLink14" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/signin.aspx" Target="_blank">SignIn</asp:HyperLink>

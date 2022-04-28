@@ -18,31 +18,31 @@
         .auto-style11 {
             height: 37px;
             width: 222px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style10 {
             height: 37px;
             width: 232px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style6 {
             height: 37px;
             width: 251px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style5 {
             height: 37px;
             width: 264px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style9 {
             height: 37px;
             width: 181px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style12 {
             height: 38px;
-            background-color: #0000CC;
+            background-color: #FF0000;
         }
         .auto-style13 {
             width: 150%;
@@ -90,7 +90,7 @@
                         <asp:HyperLink ID="HyperLink16" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Result</asp:HyperLink>
                     </td>
                     <td class="auto-style6">
-                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Champions</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink15" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White">Canditates</asp:HyperLink>
                     </td>
                     <td class="auto-style5">
                         <asp:HyperLink ID="HyperLink18" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="White" NavigateUrl="~/changepassword.aspx" Target="_blank">Change password</asp:HyperLink>
